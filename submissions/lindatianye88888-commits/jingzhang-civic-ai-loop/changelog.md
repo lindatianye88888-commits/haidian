@@ -1,5 +1,15 @@
 # 方案迭代记录
 
+## v1.4 - 2026-08-30
+
+- Synced the official repository to upstream `main` commit `3662c79b076a9f294ac8075bd04a2dfceae62bfb` and confirmed that relevant taskbook, schema and validation rules were unchanged before editing.
+- Added a bilingual, five-interface regional coordination model for AI North Community, Future Science City, Huairou Science City, Beijing E-Town and the Beijing–Tianjin–Hebei network, including auditable transfer outputs, launch gates and a non-partnership disclaimer.
+- Added `review.regional_synergy` to `compliance_matrix.json` and integrated regional sources and `A-REGIONAL-001` into the relevant agent and design-depth mappings.
+- Expanded `report/narrative.md` with seven gap-closure actions, discipline information requests, nine launch gates for TEST-01—03, an economic evidence ladder and package-wide change control.
+- Expanded `report/narrative.md` with bilingual substantive-parity checks, readable-to-machine evidence mapping, current asset-class provenance and a quarantine rule for later third-party assets.
+- Strengthened geometry, professional-data, operations, economics, bilingual and rights assumptions; all three tests remain `not_authorized`, and all economics remain low-evidence internal conceptual scenario comparisons.
+- Replaced process-state wording in readable scenario headings, expanded Chinese and English web coverage, regenerated bilingual HTML, refreshed hashes and passed all four official self-check gates.
+
 ## v1.3 - 2026-08-30
 
 - Added `visual/assets/economics_model.json` as a reproducible register for the confirmed bilingual FIG-10 quantities, concept unit rates, CAPEX/OPEX/revenue formulas, exclusions, sensitivity and low-confidence decision limits.

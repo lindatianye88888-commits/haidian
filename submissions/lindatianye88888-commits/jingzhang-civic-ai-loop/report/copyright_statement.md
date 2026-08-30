@@ -18,3 +18,9 @@ The following four photorealistic base renderings were generated with the built-
 - `core-scene-012-public-return.png`
 
 Node, location, scenario and operating-loop annotations were then authored locally as bilingual SVG overlays and rasterized with a local browser workflow. Each annotated bilingual mother image is exported twice: an unsuffixed primary-language file and a byte-identical `.en.png` counterpart. The English file declares `translation_of` in `manifest.json`; the intentional byte identity reflects a single bilingual design exported as two independently named official language artifacts. Both files contain the same Chinese and English labels. These files are text-bearing and are therefore not declared `language: neutral`.
+
+## Rights baseline and later additions
+
+The category-level provenance, generation method, permission boundary, reuse restriction and bilingual evidence mapping for the current package are recorded under “Evidence, bilingual and asset-governance audit” in `report/narrative.md`. File identity is locked by the SHA-256 entries in `manifest.json`.
+
+Any third-party image, map, font, likeness, voice, trademark, dataset or code added after the 2026-08-30 audited baseline requires an item-level record of creator/rights holder, source, retrieval date, permission or license, attribution, generation method, synthetic disclosure, permitted uses, restrictions and reviewer. An incomplete record places the asset in `quarantined` status and it must not enter the HTML, PDF, drawings or public-communication package.

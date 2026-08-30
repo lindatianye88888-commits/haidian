@@ -909,6 +909,7 @@
       "report_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
+        "区域创新协同与分工接口",
         "重点区域详细设计"
       ],
       "geojson_layers": [
@@ -927,6 +928,7 @@
       ],
       "visual_sections": [
         "总体概念与空间结构",
+        "区域创新协同与分工接口",
         "品牌、命名与三地标"
       ],
       "source_ids": [
@@ -938,7 +940,8 @@
       ],
       "assumption_ids": [
         "A-GEOMETRY-001",
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-REGIONAL-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -952,6 +955,7 @@
       "mandatory": true,
       "report_sections": [
         "统筹研究范围产业与未来城市研究",
+        "区域创新协同与分工接口",
         "AI 创新生态、人才画像与 AI+ 场景"
       ],
       "geojson_layers": [
@@ -970,12 +974,18 @@
       ],
       "visual_sections": [
         "九案例与八要素生态",
-        "AI创新生态空间映射"
+        "AI创新生态空间映射",
+        "区域创新协同与分工接口"
       ],
       "source_ids": [
         "AGENT-TASKBOOK",
         "CASE-RESEARCH",
         "ECOSYSTEM-MATRIX",
+        "REGION-AI-NORTH",
+        "REGION-FUTURE-SCIENCE",
+        "REGION-HUAIROU",
+        "REGION-YIZHUANG",
+        "REGION-JJJ",
         "CASE-DUBAI",
         "CASE-SEOUL",
         "CASE-PUNGGOL",
@@ -988,7 +998,8 @@
       ],
       "assumption_ids": [
         "A-GEOMETRY-001",
-        "A-OPERATIONS-001"
+        "A-OPERATIONS-001",
+        "A-REGIONAL-001"
       ],
       "self_check_ids": [
         "LAND_USE_TOPOLOGY",
@@ -1129,6 +1140,7 @@
       "title_zh": "一带全球AI创新活动体系与长期运营设计",
       "mandatory": true,
       "report_sections": [
+        "区域创新协同与分工接口",
         "更新项目清单、实施政策与分期计划",
         "指标体系、面积复算与合规矩阵",
         "风险、版权与合规说明"
@@ -1149,20 +1161,71 @@
       "visual_sections": [
         "日常—周—月—季—年运营",
         "开发者社区与全球活动",
-        "商业账—公共账—知识回流"
+        "商业账—公共账—知识回流",
+        "区域创新协同与分工接口"
       ],
       "source_ids": [
         "AGENT-TASKBOOK",
         "MASTER-PLAN",
         "SCENARIO-CATALOG",
         "ECOSYSTEM-MATRIX",
+        "REGION-AI-NORTH",
+        "REGION-FUTURE-SCIENCE",
+        "REGION-HUAIROU",
+        "REGION-YIZHUANG",
+        "REGION-JJJ",
         "CASE-DUBAI",
         "CASE-STATIONF"
       ],
       "assumption_ids": [
+        "A-OPERATIONS-001",
+        "A-REGIONAL-001"
+      ],
+      "self_check_ids": [
+        "VISUAL_STATIC"
+      ]
+    },
+    {
+      "requirement_id": "review.regional_synergy",
+      "title_zh": "与北纬社区、未来科学城、怀柔科学城、经开区及京津冀的创新协同",
+      "mandatory": true,
+      "report_sections": [
+        "区域创新协同与分工接口",
+        "更新项目清单、实施政策与分期计划",
+        "风险、版权与合规说明"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "key_area_count"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "区域创新协同与分工接口",
+        "任务覆盖"
+      ],
+      "source_ids": [
+        "AGENT-TASKBOOK",
+        "MASTER-PLAN",
+        "REGION-AI-NORTH",
+        "REGION-FUTURE-SCIENCE",
+        "REGION-HUAIROU",
+        "REGION-YIZHUANG",
+        "REGION-JJJ"
+      ],
+      "assumption_ids": [
+        "A-REGIONAL-001",
         "A-OPERATIONS-001"
       ],
       "self_check_ids": [
+        "TASK_COVERAGE",
+        "BILINGUAL_COVERAGE",
         "VISUAL_STATIC"
       ]
     }

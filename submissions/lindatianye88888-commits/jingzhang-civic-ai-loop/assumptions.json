@@ -4,32 +4,98 @@
     {
       "id": "A-GEOMETRY-001",
       "status": "pending_official_data",
+      "workflow_status": "controlled_provisional",
       "statement": "The overall design boundary and three key-area polygons are provisional rough constraints from the public repository, not trusted official planning boundaries.",
-      "impact": "Current area and ratio metrics are low-confidence interim design-model values. Official geometry triggers full recalculation of all dependent geometry, metrics, figures, reports, drawings and HTML."
+      "impact": "Current area and ratio metrics are low-confidence interim design-model values. Official geometry triggers full recalculation of all dependent geometry, metrics, figures, reports, drawings and HTML.",
+      "current_action": "Provenance, CRS, official_boundary=false, area-calculation CRS and the package-wide replacement rule are documented.",
+      "trigger": "The organizer publicly releases confirmed official geometry for the overall scope or any key area, with version and applicability information.",
+      "owner": "organizer for release; participant for replacement and recalculation",
+      "next_output": "Official geometry intake record plus fully recalculated bilingual package.",
+      "action_now": false
     },
     {
       "id": "A-CONTROLS-001",
       "status": "pending_professional_confirmation",
-      "statement": "FAR, building height, building coverage, setbacks, road redlines, ownership, existing-building conditions, heritage controls, utilities, fire safety and engineering constraints remain unavailable or incomplete.",
-      "impact": "Land use, massing, retain-renovate-demolish, mobility and infrastructure content remains conceptual and cannot be used as a statutory, approval or engineering conclusion."
+      "workflow_status": "blocked_external",
+      "statement": "FAR, building height, building coverage, setbacks, control lines, ownership, building-by-building conditions, roof/underground conditions, heritage, transport, parking, rail, utilities, drainage, flood, fire, energy and cybersecurity constraints remain unavailable or incomplete.",
+      "impact": "Land use, massing, retain-renovate-demolish, mobility and infrastructure content remains conceptual and cannot be used as a statutory, approval or engineering conclusion.",
+      "current_action": "A discipline-by-discipline formal information request and a no-upgrade stop rule are recorded in report/narrative.md.",
+      "trigger": "The project enters site modification, engineering development or implementation study and formal professional information becomes available.",
+      "owner": "shared among organizer, rights holders, project owner and relevant professional disciplines",
+      "next_output": "Verified base drawings, control schedule, discipline review and revised design package.",
+      "action_now": false
     },
     {
       "id": "A-OPERATIONS-001",
       "status": "pending_operator_confirmation",
+      "workflow_status": "not_authorized",
       "statement": "Operating entities, site permissions, staff, insurance, costs, data agreements, dual-account governance and annual event resources have not been formally appointed or contracted.",
-      "impact": "Scenario schedules, industry tests, public-return mechanisms and phasing are operating recommendations whose launch depends on named owners, budgets and stop/restoration protocols."
+      "impact": "Scenario schedules, industry tests, public-return mechanisms and phasing are operating recommendations whose launch depends on named owners, budgets and stop/restoration protocols.",
+      "current_action": "Nine launch gates and stop/restoration requirements are defined for TEST-01 through TEST-03; all three remain not_authorized.",
+      "trigger": "A scenario receives site-level in-principle agreement and is prepared for real public participation.",
+      "owner": "participant plus named site, safety, data, insurance and operating owners",
+      "next_output": "Signed scenario-level protocol and field/user accessibility test record.",
+      "action_now": false
     },
     {
       "id": "A-ECONOMICS-001",
       "status": "participant_concept_estimate",
+      "workflow_status": "controlled_provisional",
       "statement": "The quantities, concept unit rates, CAPEX, OPEX, revenue, NOI and payback values in visual/assets/economics_model.json and the bilingual FIG-10 diagrams are participant-authored internal scenario inputs effective 2026-08-29.",
-      "impact": "They support comparison between light-start, standard and full-rollout concepts only. They are low-confidence until measured quantities, dated market quotations, tax and financing treatment, operator agreements and approved design information replace the current assumptions."
+      "impact": "They support comparison between light-start, standard and full-rollout concepts only. They are low-confidence until measured quantities, dated market quotations, tax and financing treatment, operator agreements and approved design information replace the current assumptions.",
+      "current_action": "All economic references are labeled internal conceptual scenario comparison, low evidence grade and not a budget, financing, procurement, marketing or investment basis.",
+      "trigger": "Before the proposal is used for budget, financing, procurement, marketing or investment-decision research.",
+      "owner": "shared among cost, finance, tax, financing, operating and project-owner professionals",
+      "next_output": "Measured quantities, comparable quotations, tax/financing basis, real contracts/orders and professionally reviewed revenue-cost forecast.",
+      "action_now": false
+    },
+    {
+      "id": "A-REGIONAL-001",
+      "status": "participant_concept_interface",
+      "workflow_status": "controlled_provisional",
+      "statement": "The interfaces with AI North Community, Future Science City, Huairou Science City, Beijing E-Town and the Beijing-Tianjin-Hebei network are proposed divisions based on public positioning, not signed cooperation.",
+      "impact": "No partner, contact, resource, procurement, city participation or annual target may be represented as confirmed until the relevant parties execute an agreement.",
+      "current_action": "A five-interface division-of-labor, transfer output, activation gate and six-step workflow are included in both languages.",
+      "trigger": "Both operating parties identify responsible contacts and agree on the task, rights boundary, resources, exit and result-return obligations.",
+      "owner": "relevant operating parties; Zhongguancun services wing as proposed transfer desk",
+      "next_output": "Signed interface sheet, project transfer record and annually auditable result return.",
+      "action_now": false
+    },
+    {
+      "id": "A-BILINGUAL-001",
+      "status": "participant_audit_complete",
+      "workflow_status": "closed_now",
+      "statement": "Chinese and English scope, key responses, metrics, evidence markers, figure positions and limiting statements have been manually reviewed for substantive equivalence as of 2026-08-30.",
+      "impact": "Later changes to scope, numbers, responsibility, permission, stopping or investment status reopen the bilingual audit and must be synchronized before publication.",
+      "current_action": "Parity matrix and blocker rule are recorded in report/narrative.md.",
+      "trigger": "Any substantive content change, formal bilingual professional review or international-publication finalization.",
+      "owner": "participant plus bilingual professional reviewer for formal publication",
+      "next_output": "Updated parity audit and synchronized bilingual artifacts.",
+      "action_now": true
+    },
+    {
+      "id": "A-RIGHTS-001",
+      "status": "participant_audit_complete",
+      "workflow_status": "closed_now",
+      "statement": "Current asset classes, sources, generation methods, permission boundaries and reuse limits have been recorded as a baseline as of 2026-08-30.",
+      "impact": "Every later third-party image, map, font, likeness, voice, trademark, data or code requires an item-level delta record before publication.",
+      "current_action": "The current rights baseline and quarantine rule are recorded in report/narrative.md and the copyright statement.",
+      "trigger": "Any asset or media ingestion after this audited package version.",
+      "owner": "participant",
+      "next_output": "Item-level provenance, permission, attribution, generation and reuse-limit entry.",
+      "action_now": true
     },
     {
       "id": "A-READINESS-001",
       "status": "artifact_complete",
-      "statement": "As of 2026-08-30, all declared bilingual narratives, figures, A3/A0 PDFs, HTML deliverables, manifest hashes and self-check outputs have been refreshed for this package version.",
-      "impact": "ready_for_review means file-complete and self-checked; it does not raise provisional geometry or concept economics to official, statutory, engineering, procurement or investment evidence."
+      "workflow_status": "closed_now",
+      "statement": "As of 2026-08-30, all declared bilingual narratives, figures, A3/A0 PDFs and HTML deliverables are present, manifest hashes are refreshed and all four official self-check gates pass.",
+      "impact": "ready_for_review means file-complete and self-checked; it does not raise provisional geometry or concept economics to official, statutory, engineering, procurement or investment evidence.",
+      "current_action": "Rendered bilingual HTML, manifest hashes and the four-gate official self-check are refreshed; participant preflight is the final local handoff check.",
+      "trigger": "Every content or asset change.",
+      "owner": "participant",
+      "next_output": "Repeat render, hash refresh, self-check and preflight after any later change.",
+      "action_now": true
     }
   ]
 }

@@ -65,6 +65,20 @@ The global study uses eight primary cases and Hetao as a supplementary reference
 
 The eight factors are responsibilities on one project passport rather than a resource checklist. Land and space define access and restoration; industry and funding define real clients, costs and dual accounts; talent and compute define capability and usage; data and scenarios define minimization, authorization, human responsibility and stopping. AI Origin Community receives people and problems; Zhongzhiyuan handles R&D, compute, data and review; the two fields support real tasks; Dazhongsi handles transactions and return; the services wing supplies IP, legal, capital, talent and international support [source:ECOSYSTEM-MATRIX].
 
+## Regional Innovation Coordination and Division-of-Labor Interfaces
+
+Regional coordination uses a Jing-Zhang home field plus five external interfaces; it does not present any organization as a signed partner. Jing-Zhang owns urban-problem discovery, youth co-creation, bounded public validation, product conversion and public return. The Zhongguancun technology services wing acts as a transfer desk that records the demand, rights boundary, entry and exit conditions, and returned result. The interfaces below are conceptual divisions derived from public policy and district positioning. Each awaits confirmation by both operating parties and is neither a cooperation commitment, spatial boundary nor resource grant [source:AGENT-TASKBOOK] [source:REGION-AI-NORTH] [source:REGION-JJJ].
+
+| Coordination interface | Proposed division | Jing-Zhang interface and auditable output | Activation gate |
+| --- | --- | --- | --- |
+| AI North Community | Early incubation of AI-native organizations, one-person companies and university results | Candidate teams/prototypes enter the problem library; joint problem ticket, entry record and result return | Both operators, team authorization and IP boundary confirmed [source:REGION-AI-NORTH] |
+| Future Science City | Transfer of university, institute and central-SOE research in health, energy and related fields | Technology-transfer list, demand match and IP review; eligible projects enter controlled validation at Zhongzhiyuan | Rights holder, scenario owner and technology readiness jointly confirmed [source:REGION-FUTURE-SCIENCE] |
+| Huairou Science City | Major-science-facility capability, AI for Science methods and research data | Accept only reproducible methods and clearly licensed data/tools; return replication record and applicability boundary | No restricted data; ethics, safety, data license and research responsibility resolved [source:REGION-HUAIROU] |
+| Beijing E-Town | Vertical models, intelligent manufacturing, robotics and engineering validation | Convert publicly validated Jing-Zhang needs into an engineering-validation transfer form; return reliability, O&M and order evidence | Real owner, permit, engineering responsibility and procurement boundary established [source:REGION-YIZHUANG] |
+| Beijing–Tianjin–Hebei network | Cross-regional demand discovery, standard alignment and reuse of mature solutions | Share problem taxonomy, replication conditions, failure evidence and annual reuse results; no preselected cities or procurement | Receiving-jurisdiction compliance, local owner and cross-border data rules confirmed [source:REGION-JJJ] |
+
+Every interface follows registration, rights/risk screening, capability match, bounded validation, result return, and reuse or exit. Performance counts only logged joint problems, compliant transfers, completed validations, real adoption, cross-regional reuse and returned failures. Expressions of interest and exposure are not collaboration results. Actual agreements, contacts, resource commitments and annual targets require separate execution by the relevant operators [assumption:A-REGIONAL-001].
+
 ## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
 
 The overall design does not create an enclosed AI park. The provisional design model coordinates four mixed functional families: R&D and validation, blue-green urban testing, commercial services and value conversion, and youth community and public innovation. Land-use polygons are conceptual design partitions rather than statutory classifications; adjacent polygons share coordinates and cover the submitted boundary [standard:MOHURD-CONTROL-DETAILED-PLANNING] [data:geometry/land_use.geojson#LU-001] [depth:land_use_layout].
@@ -121,6 +135,8 @@ The twelve scenarios follow four stages, with at least three explicitly designat
 
 The three primary industry tests are: TEST-01 Youth AI Creative Prototype Public Test (SCN-002＋010), testing problem–prototype–public feedback; TEST-02 Jing-Zhang AI Cultural Co-Creation Test (SCN-004), testing factual accuracy, copyright and multilingual understanding; and TEST-03 AI-Native Product and Public-Return Test (SCN-011＋012), testing real use, first order, maintenance cost, commercial account and public account. Each uses a bounded period of 3–8 weeks or another confirmed duration. Before launch it requires a data, site, human-duty, cost, stop and restoration protocol.
 
+All three tests currently have launch status `not_authorized`. Before any real public participation, each must close nine gates: site permission; named operating and safety owners; informed-consent/refusal path; minimum-data schedule; human takeover; insurance and incident response; accessibility testing; stop/restoration; and funded O&M. A single missing gate prevents launch. The executable checklist is under “Pilot launch gates” in `report/narrative.md` [assumption:A-OPERATIONS-001].
+
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
 Current land-use and building layers express conceptual functional relationships, not statutory categories, actual property rights or building-level engineering conclusions. Four functions may overlap operationally but remain topologically closed in the structured geometry. Building-footprint area is recomputable from the design model; FAR, building height, building coverage, setbacks and control lines remain pending because official planning and existing-condition data are unavailable [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm].
@@ -164,13 +180,15 @@ Six project families bind space, operations and conditions. Every item is a conc
 
 Operations follow daily, weekly, monthly, quarterly and annual layers. Daily access supports individuals and project lookup. The AI Origin Open Table runs weekly. Prototype clinics, cultural co-creation and public-AI clinics run monthly. Open Test Week and Dazhongsi Conversion Day run quarterly. The annual cycle publishes problems, outcomes, failures, contributions and public-return summaries. International communication is evaluated by actual talent, projects, clients or research partnerships rather than exposure alone [depth:phasing_implementation].
 
+Implementation readiness runs on two tracks. This version immediately closes participant-controlled evidence registration, bilingual review, rights baseline, pilot-protocol templates and economic labeling. Official geometry, building-by-building surveys, statutory controls, site authorization, real contracts and market quotations remain externally triggered tasks. Current status, owner, output, affected artifacts and stop line for seven closure actions are recorded under “Data-gap closure register” in `report/narrative.md`; “future development” cannot substitute for a responsible party and trigger.
+
 ## Metrics, Area Recalculation, and Compliance Matrix
 
 The three core visual metrics are recomputed from provisional design geometry: model area is 11,412,825.386 m², green ratio is 12.3423%, and public-space ratio is 7.3281%. They are low-confidence design-model values, not official area or statutory indicators. Their design purpose is to test whether the current partition preserves visible space for daily interaction, blue-green continuity and public validation. All must be recalculated when official geometry replaces the provisional model [metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio].
 
 The model building-footprint area is 310,807.184 m² and supports conceptual massing review only; FAR and height remain pending official data. Three key areas are required by the taskbook, while their exact boundaries remain provisional constraints [metric:building_footprint_area_sqm] [metric:key_area_count] [depth:metrics_recalculation].
 
-The latest cost diagram is backed by the participant-authored internal concept model in `visual/assets/economics_model.json`, effective 2026-08-29. The standard scenario uses 172,100 m² of activated floor area, 9.52 km of public-realm interface and 12＋12 modules/nodes as quantity inputs: CNY 637 million for building renewal, CNY 114 million for public realm, and CNY 94 million for parks/corridors/modules/smart systems. Direct costs total CNY 845 million; design management at 12% (CNY 101.4 million), contingency at 15% (CNY 126.75 million) and an 18-month activation fund (CNY 40.85 million) produce the CNY 1.114 billion concept total. These unit rates are participant inputs for scenario comparison, not market quotations, an approved estimate or a procurement basis [source:ECONOMIC-MODEL] [metric:standard_scenario_capex_cny].
+The latest cost diagram is backed by the participant-authored “internal conceptual scenario comparison” model in `visual/assets/economics_model.json`, effective 2026-08-29, with a low evidence grade. The standard scenario uses 172,100 m² of activated floor area, 9.52 km of public-realm interface and 12＋12 modules/nodes as quantity inputs: CNY 637 million for building renewal, CNY 114 million for public realm, and CNY 94 million for parks/corridors/modules/smart systems. Direct costs total CNY 845 million; design management at 12% (CNY 101.4 million), contingency at 15% (CNY 126.75 million) and an 18-month activation fund (CNY 40.85 million) produce the CNY 1.114 billion concept total. Quantities and rates are scenario-comparison inputs, not measured quantities, market quotations, an approved estimate, budget, financing, procurement, marketing material or an investment basis [source:ECONOMIC-MODEL] [metric:standard_scenario_capex_cny].
 
 The stabilized operating case assumes 75% occupancy and an operable share equal to 70% of activated floor area. Annual revenue is CNY 226 million, annual operating cost CNY 124 million and annual NOI CNY 102 million; static unlevered payback is `1,114 / 102 = 10.92` years, displayed as approximately 11 years. At 60%/75%/90% occupancy, modeled payback is 16.7/10.9/8.1 years; with CAPEX ±15% from base, payback spans 9.3–12.6 years. The model excludes acquisition/relocation, financing and unstated taxes, major structural reinforcement, heritage-specialist work, underground works, utility expansion, approval costs, escalation and terminal value. It is neither a revenue guarantee nor an investment conclusion [source:ECONOMIC-MODEL] [metric:standard_scenario_annual_noi_cny].
 
@@ -180,9 +198,11 @@ The compliance matrix separately maps agent.1 to brand and overall structure; ag
 
 ## Risk, Copyright, and Compliance
 
-The principal data gaps are official boundaries, planning controls, road redlines, ownership, existing buildings, municipal systems, fire, heritage, mobility and operating costs. Every dependent conclusion is downgraded to a conceptual recommendation and linked to assumptions and recalculation triggers. High-impact, privacy-sensitive, safety-related and financially consequential actions require final human and professional judgment [source:SITE-PACKAGE] [data:geometry/constraints.geojson#CONSTRAINTS] [depth:risk_missing_data].
+The principal data gaps are official boundaries; statutory land use and controls; road redlines and building control lines; ownership; building-by-building surveys; roof and underground conditions; structure and fire; heritage; traffic, parking and rail interchange; drainage and flood safety; energy; cybersecurity; site permission; insurance; real operating contracts; and cost evidence. Every dependent conclusion is downgraded to a conceptual recommendation and linked to assumptions, a responsible party and recalculation triggers. Until professional information is available, no spatial action may be upgraded into parcel adjustment, demolition, engineering design or implementation instruction. High-impact, privacy-sensitive, safety-related and financially consequential actions require final human and professional judgment [source:SITE-PACKAGE] [data:geometry/constraints.geojson#CONSTRAINTS] [depth:risk_missing_data].
 
-The project uses only lawfully public or rights-cleared material and excludes classified content, personal data and assets with unclear permissions. Generated figures and renderings are marked conceptual/synthetic and do not evidence existing conditions, public consent or approval. People, fonts, logos, paper images, maps and external case assets require rights clearance. The case study cites public facts and mechanisms without copying external images or trademarks.
+The project uses only lawfully public or rights-cleared material and excludes classified content, personal data and assets with unclear permissions. Generated figures and renderings are marked conceptual/synthetic and do not evidence existing conditions, public consent or approval. People, fonts, logos, paper images, maps and external case assets require rights clearance. The case study cites public facts and mechanisms without copying external images or trademarks. Current asset classes, sources, generation methods, permission boundaries and reuse limits are registered under “Asset-rights baseline” in `report/narrative.md`. Any later third-party image, map, font, likeness, voice, trademark, data or code must receive an item-level entry before publication [assumption:A-RIGHTS-001].
+
+Chinese and English proposals, web sections, metrics, evidence markers, figure positions and limiting statements have been reviewed item by item for substantive meaning; the variance rule is under “Bilingual substantive-parity audit” in `report/narrative.md`. Bilingual parity means informational equivalence, not literal translation. Any change to scope, numbers, responsibility, permission, stopping or investment status must be made in both languages [assumption:A-BILINGUAL-001].
 
 As of 2026-08-30, the bilingual proposals, 40-figure sequences, A3/A0 drawings, websites, offline Chinese font, manifest hashes and four-gate self-check have all been refreshed for this version. The package is file-ready for professional review. This readiness statement concerns artifact completeness and passed checks only: data confidence remains mixed provisional geometry plus internal concept estimates, and does not imply official boundaries, statutory metrics, engineering feasibility, investment approval or confirmed operating conditions.
 
@@ -198,6 +218,11 @@ As of 2026-08-30, the bilingual proposals, 40-figure sequences, A3/A0 drawings, 
 8. Participant strategy, Three AI Pilgrimage Landmarks and Distributed Honor System, 2026-08 [source:LANDMARK-SYSTEM].
 9. Ministry of Housing and Urban-Rural Development, local reference snapshots of Measures for Urban Design Management and Regulatory Detailed Planning, [standard:MOHURD-URBAN-DESIGN-MEASURES].
 10. Ministry of Natural Resources, local reference snapshot of the Land and Sea Use Classification Guide for Territorial Spatial Survey, Planning and Use Control, [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE].
+11. Beijing Municipal Bureau of Economy and Information Technology, public introduction to the AI North Innovation Community, 2026 [source:REGION-AI-NORTH].
+12. Beijing Municipal Science and Technology Commission / Zhongguancun Science Park, public information on Future Science City innovation, 2026 [source:REGION-FUTURE-SCIENCE].
+13. Beijing Municipal Government, public information on AI for Science in Huairou Science City, 2026 [source:REGION-HUAIROU].
+14. Beijing Municipal Government, public information on AI and industrial application in Beijing E-Town, 2026 [source:REGION-YIZHUANG].
+15. Beijing Municipal Government, public policy information on AI for Science and Beijing–Tianjin–Hebei coordination, 2026 [source:REGION-JJJ].
 
 ## Supplemental Spatial Prototypes and Operating Drawings
 
@@ -334,15 +359,15 @@ The following Chinese-English figure pairs are conceptual, non-scaled or pending
 
 ![FIG-15 PERSONA-01_六类共智者_正式横版_EN_v1.png](assets/text-figures/9515af16eefc9ae7.webp)
 
-### 029 SCN-001_Bilingual_Edge_Layout_DRAFT.png
+### 029 SCN-001 Bilingual Scenario Layout
 
 ![SCN-001_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/a55d076e7bb46293.webp)
 
-### 030 SCN-002_Bilingual_Edge_Layout_CANDIDATE.png
+### 030 SCN-002 Bilingual Scenario Layout
 
 ![SCN-002_Bilingual_Edge_Layout_CANDIDATE.png](assets/text-figures/9a7d7d9af249974e.webp)
 
-### 031 SCN-003_Bilingual_Edge_Layout_DRAFT.png
+### 031 SCN-003 Bilingual Scenario Layout
 
 ![SCN-003_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/7c67c839a5b19132.webp)
 
@@ -350,23 +375,23 @@ The following Chinese-English figure pairs are conceptual, non-scaled or pending
 
 ![SCN-004_Bilingual_Edge_Layout_FINAL.png](assets/text-figures/82a1cf636999423a.webp)
 
-### 033 SCN-005_Bilingual_Edge_Layout_DRAFT.png
+### 033 SCN-005 Bilingual Scenario Layout
 
 ![SCN-005_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/e897fc4e7025dd28.webp)
 
-### 034 SCN-006_Bilingual_Edge_Layout_DRAFT.png
+### 034 SCN-006 Bilingual Scenario Layout
 
 ![SCN-006_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/4ef970462fda6e9d.webp)
 
-### 035 SCN-007_Bilingual_Edge_Layout_DRAFT.png
+### 035 SCN-007 Bilingual Scenario Layout
 
 ![SCN-007_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/36fe13d8a057fdf0.webp)
 
-### 036 SCN-008_Bilingual_Edge_Layout_DRAFT.png
+### 036 SCN-008 Bilingual Scenario Layout
 
 ![SCN-008_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/33926505f306de5d.webp)
 
-### 037 SCN-009_Bilingual_Edge_Layout_DRAFT.png
+### 037 SCN-009 Bilingual Scenario Layout
 
 ![SCN-009_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/8247b24567b9a969.webp)
 
@@ -374,7 +399,7 @@ The following Chinese-English figure pairs are conceptual, non-scaled or pending
 
 ![SCN-010_Bilingual_Edge_Layout_FINAL.png](assets/text-figures/dbcda0af14c20e8b.webp)
 
-### 039 SCN-011_Bilingual_Edge_Layout_DRAFT.png
+### 039 SCN-011 Bilingual Scenario Layout
 
 ![SCN-011_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/124f3002df8fb0e4.webp)
 

@@ -283,6 +283,66 @@
       "license": "SIL Open Font License 1.1; full license text is embedded at the head of visual/assets/noto-sans-sc-subset.css",
       "usage": "Offline subset embedded in the Chinese proposal report and visual webpage to prevent missing-glyph boxes.",
       "limitations": "Subset includes only glyphs used by this submitted HTML package; the Reserved Font Name terms remain governed by the bundled OFL."
+    },
+    {
+      "id": "REGION-AI-NORTH",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/nlgc/nlkj/",
+      "source_type": "official_public",
+      "publisher": "北京市经济和信息化局",
+      "published_at": "public topic page",
+      "retrieved_at": "2026-08-30",
+      "public_status": "external-public",
+      "license": "citation only",
+      "usage": "Background for the proposed AI-native organization, one-person-company and university-result incubation interface with AI North Community.",
+      "limitations": "Public positioning does not prove a partnership, named operator, resource allocation, site access or transfer commitment for this proposal."
+    },
+    {
+      "id": "REGION-FUTURE-SCIENCE",
+      "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtscyqld/202601/t20260123_4458424.html",
+      "source_type": "official_public",
+      "publisher": "北京市科学技术委员会、中关村科技园区管理委员会",
+      "published_at": "2026-01-23",
+      "retrieved_at": "2026-08-30",
+      "public_status": "external-public",
+      "license": "citation only",
+      "usage": "Background for a proposed research-transfer and demand-matching interface with Future Science City.",
+      "limitations": "The page does not create project-specific IP rights, technology readiness, testing permission, budgets or cooperation obligations."
+    },
+    {
+      "id": "REGION-HUAIROU",
+      "url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202607/t20260704_4747124.html",
+      "source_type": "official_public",
+      "publisher": "北京市人民政府",
+      "published_at": "2026-07-04",
+      "retrieved_at": "2026-08-30",
+      "public_status": "external-public",
+      "license": "citation only",
+      "usage": "Background for the proposed AI for Science, reproducible-method and clearly licensed research-data interface with Huairou Science City.",
+      "limitations": "The source does not authorize access to restricted facilities or data and does not replace ethics, security, license or research-responsibility review."
+    },
+    {
+      "id": "REGION-YIZHUANG",
+      "url": "https://www.beijing.gov.cn/ywdt/gzdt/202602/t20260203_4487341.html",
+      "source_type": "official_public",
+      "publisher": "北京市人民政府",
+      "published_at": "2026-02-03",
+      "retrieved_at": "2026-08-30",
+      "public_status": "external-public",
+      "license": "citation only",
+      "usage": "Background for a proposed vertical-model, intelligent-manufacturing, robotics and engineering-validation transfer interface with Beijing E-Town.",
+      "limitations": "The source does not prove a real owner, order, procurement, engineering responsibility, site permission or partnership for this proposal."
+    },
+    {
+      "id": "REGION-JJJ",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202607/t20260702_4743249.html",
+      "source_type": "official_public",
+      "publisher": "北京市人民政府",
+      "published_at": "2026-07-02",
+      "retrieved_at": "2026-08-30",
+      "public_status": "external-public",
+      "license": "citation only",
+      "usage": "Background for a proposed Beijing-Tianjin-Hebei problem, standard-alignment and mature-solution reuse interface.",
+      "limitations": "The policy context does not identify participating cities, procurement, cross-jurisdiction data permission, local owners or a project-specific agreement."
     }
   ]
 }

@@ -65,6 +65,20 @@ iteration: "v0.2"
 
 八要素不是资源清单，而是同一项目护照上的服务责任：土地和空间说明准入与恢复，产业和资金说明真实客户、成本与双账，人才和算力说明能力与用量，数据和场景说明最小化、授权、人工责任与停止。原点社区承接人才与问题，众智园承接研发、算力、数据和审查，双场承接真实任务，大钟寺承接交易与回流，服务翼提供 IP、法律、资本、人才和国际化支持 [source:ECOSYSTEM-MATRIX]。
 
+## 区域创新协同与分工接口
+
+区域协同采用“京张主场＋五类外部接口”，不把合作单位预写成已签约伙伴。京张一带负责发现城市问题、青年共创、受控公众验证、产品转化与公共回流；中关村科技服务翼作为统一转接台，记录需求、权利边界、进入条件、退出条件和结果回传。以下接口依据公开政策与园区定位提出，均是待双方运营主体确认的概念分工，不构成合作承诺、空间边界或资源授予 [source:AGENT-TASKBOOK] [source:REGION-AI-NORTH] [source:REGION-JJJ]。
+
+| 协同对象 | 拟议分工 | 京张接口与可核验交付 | 启动门槛 |
+| --- | --- | --- | --- |
+| 北纬社区 | AI 原生组织、单人公司与高校成果的早期孵化 | 候选团队/原型转入问题库；形成联合问题单、进入记录和结果回传 | 双方运营主体、团队授权与知识产权边界确认 [source:REGION-AI-NORTH] |
+| 未来科学城 | 高校院所、央企科研与生命健康/能源等成果转化 | 技术转化清单、需求匹配和知识产权复核；适配项目进入众智园受控验证 | 权利人、场景责任人及技术成熟度共同确认 [source:REGION-FUTURE-SCIENCE] |
+| 怀柔科学城 | 大科学装置、AI for Science 方法与科研数据能力 | 只接收可复现方法、已明确许可的数据或工具；以复现记录和适用边界回传 | 不接入受限数据；伦理、安全、数据许可和科研责任明确 [source:REGION-HUAIROU] |
+| 北京经开区 | 垂直模型、智能制造、机器人及城市工程化验证 | 将京张公众验证后的需求转为工程验证转接单，并回收可靠性、运维和订单证据 | 真实业主、许可、工程责任和采购边界成立 [source:REGION-YIZHUANG] |
+| 京津冀协作网络 | 跨区域需求发现、标准互认和成熟方案复用 | 共享问题分类、复制条件、失败证据和年度复用结果，不预设城市名单与采购 | 接收地合法合规复核、属地责任人和数据出域规则确认 [source:REGION-JJJ] |
+
+接口按“需求登记—权利与风险筛查—能力匹配—限域验证—结果回传—复用/退出”运行。协同效果只统计已留痕的联合问题、合规转接、完成验证、真实采用、跨区复用和失败回传；不以意向数量或传播曝光替代合作结果。真实合作协议、联系人、资源承诺和年度目标须由相应运营主体另行签署 [assumption:A-REGIONAL-001]。
+
 ## 总体设计范围城市更新与控规深度城市设计
 
 总体设计不新增封闭 AI 园区，而是以临时设计模型协调四类混合功能：研发与验证、蓝绿城市测试、商业服务与价值转化、青年社区与公共创新。用地 polygon 是概念分区，不是法定地类边界；相邻分区共享坐标并覆盖当前提交边界 [standard:MOHURD-CONTROL-DETAILED-PLANNING] [data:geometry/land_use.geojson#LU-001] [depth:land_use_layout]。
@@ -121,6 +135,8 @@ iteration: "v0.2"
 
 三项主产业测试为：TEST-01 青年 AI 创意原型公开测试（SCN-002＋010），验证问题—原型—公众反馈；TEST-02 京张 AI 文化共创实验（SCN-004），验证事实、版权和多语言理解；TEST-03 AI 原生产品与公共回流实验（SCN-011＋012），验证真实试用、首单、维护成本、商业账与公共账。每项测试均为 3–8 周或另行确认的限域周期，正式启动前必须签署数据、场地、人工值守、成本、停止和恢复协议。
 
+三项测试当前启动状态均为 `not_authorized`。任何真实公众参与前，须逐场完成场地许可、运营与安全责任人、知情同意/拒绝路径、最小数据清单、人工接管、保险与事件响应、无障碍测试、停止恢复及运维资金九项门槛；任一项缺失即不启动。可执行清单见 `report/narrative.md` 的“试点启动门槛” [assumption:A-OPERATIONS-001]。
+
 ## 用地、建筑规模与拆改留方案
 
 当前用地和建筑图层表达概念功能关系，不表达法定地类、真实产权或逐栋工程结论。四类功能可在运营上复合，但在结构化几何中保持拓扑闭合；建筑基底面积可由设计模型复算，容积率、建筑高度、建筑密度、退线和建筑控制线因缺少官方控规与现状资料保持待确认 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [data:geometry/buildings.geojson#BLDG-001] [metric:building_footprint_area_sqm]。
@@ -164,13 +180,15 @@ iteration: "v0.2"
 
 运营节奏采用日常—周—月—季—年五层：日常开放个人进入和项目查询；每周运行 AI 原点开放桌；每月举行原型门诊、文化共创和公共性 AI 会诊；每季度运行开放测试周与大钟寺转化日；每年发布问题、成果、失败、贡献和公共回流摘要。国际传播以人才、项目、客户或研究合作的实际转化衡量，不以曝光量替代公共价值 [depth:phasing_implementation]。
 
+实施准备实行“双轨”：本版立即完成可由参与者控制的证据登记、双语校核、版权基线、试点协议模板和经济口径标识；官方边界、逐栋调查、法定控制、场地授权、真实合同和市场询价则保留为外部触发任务。七项关闭动作的当前状态、责任、交付物、受影响文件和停止线见 `report/narrative.md` 的“资料缺口关闭台账”，不得用“后续深化”替代责任与触发条件。
+
 ## 指标体系、面积复算与合规矩阵
 
 当前三项核心视觉指标由临时设计几何复算：总体设计模型面积为 11,412,825.386 m²，绿地比例为 12.3423%，公共空间比例为 7.3281%。它们是低置信度设计模型值，不是官方面积或法定指标；其意义是检验当前分区是否为日常交往、蓝绿连续和公共验证保留了可见空间，正式边界替换后必须整体重算 [metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio]。
 
 建筑基底设计模型面积为 310,807.184 m²，仅用于当前概念量体复核；容积率和高度保持待正式数据补齐。重点区数量为三处，数量来自任务书，具体边界仍为临时约束 [metric:building_footprint_area_sqm] [metric:key_area_count] [depth:metrics_recalculation]。
 
-最新造价图采用参与者编制的内部概念模型 `visual/assets/economics_model.json`，有效日期为 2026-08-29。标准实施情景以 17.21 万 m² 激活建筑面积、9.52 km 公共界面和 12＋12 个模块/节点为数量输入：建筑更新 6.37 亿元、公共界面 1.14 亿元、公园/廊道/模块与智慧系统 0.94 亿元；三项直接费用合计 8.45 亿元，再计设计管理费 12%（1.014 亿元）、预备费 15%（1.2675 亿元）和 18 个月启动金 0.4085 亿元，形成 11.14 亿元概念总投入。上述单价是为当前方案比较建立的参与者输入，不是市场询价、批准概算或采购依据 [source:ECONOMIC-MODEL] [metric:standard_scenario_capex_cny]。
+最新造价图采用参与者编制的“内部概念情景比较”模型 `visual/assets/economics_model.json`，有效日期为 2026-08-29，证据等级为低。标准实施情景以 17.21 万 m² 激活建筑面积、9.52 km 公共界面和 12＋12 个模块/节点为数量输入：建筑更新 6.37 亿元、公共界面 1.14 亿元、公园/廊道/模块与智慧系统 0.94 亿元；三项直接费用合计 8.45 亿元，再计设计管理费 12%（1.014 亿元）、预备费 15%（1.2675 亿元）和 18 个月启动金 0.4085 亿元，形成 11.14 亿元概念总投入。上述工程量和单价均为方案比较输入，不是实测工程量、市场询价、批准概算、预算、融资、采购、招商或投资依据 [source:ECONOMIC-MODEL] [metric:standard_scenario_capex_cny]。
 
 成熟期运营情景按 75% 稳定入住率和激活面积的 70% 可运营比例计算，年营收 2.26 亿元、年运营成本 1.24 亿元、年净运营收益 1.02 亿元，静态无杠杆回收期为 `11.14 / 1.02 = 10.92` 年，图中取“约 11 年”。当入住率分别为 60%/75%/90% 时，模型回收期为 16.7/10.9/8.1 年；当投入在基准值上变化 ±15% 时，回收期为 9.3—12.6 年。模型排除征拆、融资及未列税费、重大结构加固、文保专项、地下工程、市政扩容、审批成本、价格上涨和终值，不构成收益承诺或投资结论 [source:ECONOMIC-MODEL] [metric:standard_scenario_annual_noi_cny]。
 
@@ -180,9 +198,11 @@ iteration: "v0.2"
 
 ## 风险、版权与合规说明
 
-临时边界、控规、道路红线、权属、现状建筑、市政、消防、文保、交通和运营成本是当前主要数据缺口。所有依赖这些条件的结论均降级为概念建议，并写入假设与复算触发；高影响、隐私敏感、安全相关和财务相关动作必须由人类与相应专业主体最终判断 [source:SITE-PACKAGE] [data:geometry/constraints.geojson#CONSTRAINTS] [depth:risk_missing_data]。
+临时边界、法定用地与控制指标、道路红线、建筑控制线、权属、逐栋测绘、屋顶与地下条件、结构消防、文保、交通停车与轨道接驳、市政排水与防洪、能源、网络安全、场地许可、保险、真实运营合同和成本证据是当前主要数据缺口。所有依赖这些条件的结论均降级为概念建议，并写入假设、责任主体与复算触发；未获专业资料前不得把空间动作升级为地块调整、拆除、工程设计或实施指令。高影响、隐私敏感、安全相关和财务相关动作必须由人类与相应专业主体最终判断 [source:SITE-PACKAGE] [data:geometry/constraints.geojson#CONSTRAINTS] [depth:risk_missing_data]。
 
-项目只使用依法公开或已清权资料，排除涉密内容、个人隐私和许可不清资产。生成图件与效果表达标注为 conceptual/synthetic，不作为现状、公众同意或审批证据。人物、字体、Logo、论文图片、地图与外部案例资产须按版权声明清权；案例研究只引用公开事实和机制，不复制外部图片或商标。
+项目只使用依法公开或已清权资料，排除涉密内容、个人隐私和许可不清资产。生成图件与效果表达标注为 conceptual/synthetic，不作为现状、公众同意或审批证据。人物、字体、Logo、论文图片、地图与外部案例资产须按版权声明清权；案例研究只引用公开事实和机制，不复制外部图片或商标。当前素材类别、来源、生成方式、许可边界和复用限制已登记于 `report/narrative.md` 的“素材权利基线”；以后新增第三方图片、地图、字体、肖像、声音、商标、数据或代码时，须逐项追加登记后再发布 [assumption:A-RIGHTS-001]。
+
+中英文正文、网页章节、指标、证据标记、图位和限制性说明已按实质意义逐项校核，差异登记规则见 `report/narrative.md` 的“双语实质一致审计”。双语一致表示信息等价，不表示逐字直译；任何涉及范围、数字、责任、许可、停止或投资属性的变更必须同步修改两种语言 [assumption:A-BILINGUAL-001]。
 
 截至 2026-08-30，双语正文、40 图顺序、A3/A0、网页、离线中文字体、manifest 哈希与四门自检均已按本版刷新，本包已达到“可进入专业评审”的文件就绪状态。该状态只说明交付物完整且自检通过；数据置信度仍为“临时几何＋内部概念测算的混合状态”，不代表官方边界、法定指标、工程可行性、投资批准或现实运营条件已经确认。
 
@@ -198,6 +218,11 @@ iteration: "v0.2"
 8. 参与者策划：《三处 AI 朝圣地标角色与荣誉体系》，2026-08 [source:LANDMARK-SYSTEM]。
 9. 住房和城乡建设部：《城市设计管理办法》及《城市、镇控制性详细规划编制审批办法》本地参考快照 [standard:MOHURD-URBAN-DESIGN-MEASURES]。
 10. 自然资源部：《国土空间调查、规划、用途管制用地用海分类指南》本地参考快照 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]。
+11. 北京市经济和信息化局：北纬人工智能创新社区公开介绍，2026 [source:REGION-AI-NORTH]。
+12. 北京市科学技术委员会、中关村科技园区管理委员会：未来科学城创新发展公开信息，2026 [source:REGION-FUTURE-SCIENCE]。
+13. 北京市人民政府：怀柔科学城 AI for Science 公开信息，2026 [source:REGION-HUAIROU]。
+14. 北京市人民政府：北京经开区人工智能与产业应用公开信息，2026 [source:REGION-YIZHUANG]。
+15. 北京市人民政府：人工智能赋能科学研究与京津冀协同政策公开信息，2026 [source:REGION-JJJ]。
 
 ## 空间原型与运营机制补充图集
 
@@ -334,15 +359,15 @@ iteration: "v0.2"
 
 ![FIG-15 PERSONA-01_六类共智者_正式横版_v1.png](assets/text-figures/15c16257799c3870.webp)
 
-### 029 SCN-001_Bilingual_Edge_Layout_DRAFT.png
+### 029 SCN-001 双语场景布局
 
 ![SCN-001_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/a55d076e7bb46293.webp)
 
-### 030 SCN-002_Bilingual_Edge_Layout_CANDIDATE.png
+### 030 SCN-002 双语场景布局
 
 ![SCN-002_Bilingual_Edge_Layout_CANDIDATE.png](assets/text-figures/9a7d7d9af249974e.webp)
 
-### 031 SCN-003_Bilingual_Edge_Layout_DRAFT.png
+### 031 SCN-003 双语场景布局
 
 ![SCN-003_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/7c67c839a5b19132.webp)
 
@@ -350,23 +375,23 @@ iteration: "v0.2"
 
 ![SCN-004_Bilingual_Edge_Layout_FINAL.png](assets/text-figures/82a1cf636999423a.webp)
 
-### 033 SCN-005_Bilingual_Edge_Layout_DRAFT.png
+### 033 SCN-005 双语场景布局
 
 ![SCN-005_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/e897fc4e7025dd28.webp)
 
-### 034 SCN-006_Bilingual_Edge_Layout_DRAFT.png
+### 034 SCN-006 双语场景布局
 
 ![SCN-006_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/4ef970462fda6e9d.webp)
 
-### 035 SCN-007_Bilingual_Edge_Layout_DRAFT.png
+### 035 SCN-007 双语场景布局
 
 ![SCN-007_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/36fe13d8a057fdf0.webp)
 
-### 036 SCN-008_Bilingual_Edge_Layout_DRAFT.png
+### 036 SCN-008 双语场景布局
 
 ![SCN-008_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/33926505f306de5d.webp)
 
-### 037 SCN-009_Bilingual_Edge_Layout_DRAFT.png
+### 037 SCN-009 双语场景布局
 
 ![SCN-009_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/8247b24567b9a969.webp)
 
@@ -374,7 +399,7 @@ iteration: "v0.2"
 
 ![SCN-010_Bilingual_Edge_Layout_FINAL.png](assets/text-figures/dbcda0af14c20e8b.webp)
 
-### 039 SCN-011_Bilingual_Edge_Layout_DRAFT.png
+### 039 SCN-011 双语场景布局
 
 ![SCN-011_Bilingual_Edge_Layout_DRAFT.png](assets/text-figures/124f3002df8fb0e4.webp)
 

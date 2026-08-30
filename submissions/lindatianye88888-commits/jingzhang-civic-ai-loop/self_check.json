@@ -132,7 +132,7 @@
       "ai_package_stages": {
         "submissions/lindatianye88888-commits/jingzhang-civic-ai-loop": "formal"
       },
-      "total_bytes": 39840386,
+      "total_bytes": 39894681,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -212,7 +212,7 @@
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 19,
+          "source": 24,
           "standard": 5,
           "depth": 15,
           "data": 11,

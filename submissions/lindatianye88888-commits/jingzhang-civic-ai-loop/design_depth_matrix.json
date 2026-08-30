@@ -114,6 +114,7 @@
       "proposal_sections": [
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
+        "区域创新协同与分工接口",
         "总体设计范围城市更新与控规深度城市设计",
         "重点区域详细设计"
       ],
@@ -146,10 +147,16 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "REGION-AI-NORTH",
+        "REGION-FUTURE-SCIENCE",
+        "REGION-HUAIROU",
+        "REGION-YIZHUANG",
+        "REGION-JJJ"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-REGIONAL-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -157,7 +164,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "以一脊三核两翼双门双场一网三流组织产业、公共空间、验证和回流，图层表达为概念结构。"
+      "evidence_summary_zh": "以一脊三核两翼双门双场一网三流组织产业、公共空间、验证和回流，并以五类区域接口定义分工、转接交付和启动门槛；图层仍表达概念结构。"
     },
     {
       "item_id": "land_use_layout",
@@ -735,6 +742,7 @@
       "required": true,
       "status": "complete",
       "proposal_sections": [
+        "更新项目清单、实施政策与分期计划",
         "风险、版权与合规说明"
       ],
       "drawing_refs": [
@@ -769,7 +777,13 @@
         "KEY-AREA-SOURCE"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-GEOMETRY-001",
+        "A-CONTROLS-001",
+        "A-OPERATIONS-001",
+        "A-ECONOMICS-001",
+        "A-REGIONAL-001",
+        "A-BILINGUAL-001",
+        "A-RIGHTS-001"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
@@ -777,7 +791,7 @@
         "LAND_USE_TOPOLOGY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "几何、控规、权属、建筑、市政、消防、文保、交通与运营缺口已进入假设、正文和深化触发条件。"
+      "evidence_summary_zh": "几何、控规、权属、逐栋建筑、交通轨道、市政防洪、消防文保、能源网安、运营、经济、双语与版权缺口已进入假设、正文及实施准备台账，并配置责任、触发、交付物和停止线。"
     }
   ]
 }
